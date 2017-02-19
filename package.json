@@ -1,0 +1,31 @@
+{
+  "name": "posters",
+  "version": "1.0.0",
+  "description": "Illustrations designed in HTML and CSS.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ro9ues/posters.git"
+  },
+  "keywords": [
+    "Movies",
+    "Posters",
+    "HTML",
+    "CSS",
+    "Creative-Art"
+  ],
+  "author": "rogues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ro9ues/posters/issues"
+  },
+  "homepage": "https://github.com/ro9ues/posters#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.0",
+    "sass-lint": "^1.10.2"
+  }
+}
