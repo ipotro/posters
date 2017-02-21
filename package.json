@@ -5,6 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "precommit": "npm t",
     "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
   },
   "repository": {
@@ -18,13 +19,14 @@
     "CSS",
     "Creative-Art"
   ],
-  "author": "rogues",
+  "author": "rogues, creative CRAZY art director",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ro9ues/posters/issues"
   },
   "homepage": "https://github.com/ro9ues/posters#readme",
   "devDependencies": {
+    "husky": "^0.13.1",
     "node-sass": "^4.5.0",
     "sass-lint": "^1.10.2"
   }
