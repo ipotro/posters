@@ -1,0 +1,15 @@
+basePath: "https://github.com/ro9ues/posters"
+dest: "docs"
+display:
+  access: ["private", "public"]
+  alias: true
+  watermark: true
+package:
+  title: "Posters"
+  name: "Posters-docs"
+  version: "0.1.0"
+  license: "MIT"
+  homepage: "https://posters.wtf"
+theme: "neat"
+groups:
+  undefined: Ungrouped
