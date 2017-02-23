@@ -1,0 +1,42 @@
+{
+  "name": "posters",
+  "version": "1.0.0",
+  "description": "Illustrations designed in HTML and CSS.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "precommit": "npm t",
+    "docs": "sassdoc app/styles/",
+    "lint": "sass-lint --config .scss-lint.yml --verbose --no-exit",
+    "pretest": "npm run -s lint",
+    "test": "mocha tests/**  --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ro9ues/posters.git"
+  },
+  "keywords": [
+    "Movies",
+    "Posters",
+    "HTML",
+    "CSS",
+    "Creative-Art"
+  ],
+  "author": "rogues, creative CRAZY art director",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ro9ues/posters/issues"
+  },
+  "homepage": "https://github.com/ro9ues/posters#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "husky": "^0.13.1",
+    "mocha": "^3.2.0",
+    "node-sass": "^4.5.0",
+    "sass-lint": "^1.10.2",
+    "sass-true": "^2.2.1",
+    "sassdoc": "^2.2.0",
+    "sassdoc-theme-neat": "0.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+title: Movie Porters
+description: "Illustrations in HTML and CSS."
+baseurl: ""
+url: "https://posters.wtf"
+author:
+  name: "rogues"
+  username: "ro9ues"
+
+# Build settings
+markdown: kramdown
+theme: minima
