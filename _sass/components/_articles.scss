@@ -1,0 +1,44 @@
+@charset 'utf-8';
+
+.article {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      // sass-lint:disable no-color-keywords, no-color-literals
+      background-color: black;
+      // sass-lint:enable no-color-keywords, no-color-literals
+      content: '';
+      height: 25px;
+      left: 0;
+      margin-top: 20px;
+      position: absolute;
+      // sass-lint:disable no-transition-all
+      transition: all 0.2s ease-in-out;
+      // sass-lint:enable no-transition-all
+      width: 100%;
+      z-index: -1;
+    }
+
+    &:hover {
+      &::before {
+        height: 42px;
+        left: -10px;
+        margin-top: 0;
+        width: calc(100% + 20px);
+      }
+    }
+  }
+}

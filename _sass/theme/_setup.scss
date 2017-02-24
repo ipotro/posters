@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  color: white(1);
+  font-family: 'vcr';
+  font-size: 28px;
+  height: 100%;
+  line-height: 41px;
+  // sass-lint:disable no-color-keywords, no-color-literals, indentation
+  text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+  // sass-lint:enable no-color-keywords, no-color-literals, indentation
+  text-transform: uppercase;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
