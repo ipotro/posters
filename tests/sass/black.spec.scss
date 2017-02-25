@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+@include test-module('The Posters Project') {
+  @include test-module('black color function') {
+    @include test('Should return the appropiate black rgba color with $opacity') {
+      $actual: black(0.9);
+      $expected: rgba(0, 0, 0, 0.9);
+
+      @include assert-equal($actual, $expected);
+    };
+  };
+};

@@ -3,7 +3,9 @@
 @import 'true';
 
 @import '../../_sass/functions/color.white';
+@import '../../_sass/functions/color.black';
 
 @import './white.spec';
+@import './black.spec';
 
 @include report;
