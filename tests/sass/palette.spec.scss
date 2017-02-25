@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+@include test-module('The Posters Project') {
+  @include test-module('palette function') {
+    @include test('Should return the appropiate HEX value from $palette') {
+      $actual: palette(slate-gray);
+      $expected: #6F7C8E;
+
+      @include assert-equal($actual, $expected);
+    };
+
+    @include test('Should return the appropiate HEX value from $palette') {
+      $actual: palette(outer-space);
+      $expected: #212C30;
+
+      @include assert-equal($actual, $expected);
+    };
+  };
+};

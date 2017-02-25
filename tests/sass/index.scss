@@ -2,10 +2,14 @@
 
 @import 'true';
 
+@import '../../_sass/theme/palette';
+
 @import '../../_sass/functions/color.white';
 @import '../../_sass/functions/color.black';
+@import '../../_sass/functions/palette';
 
 @import './white.spec';
 @import './black.spec';
+@import './palette.spec';
 
 @include report;
