@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Posters — Home"
+---
+
+<div class='home'>
+  <div class='home__copy'>
+    <p>“Posters” is a series of Illustrations designed in HTML and CSS. Click below for some magic.</p>
+  </div>
+  <ul class='article__list'>
+    {% for post in site.posts %}
+      <li class='article__item'><a href='#' class='article__link'>{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <footer>
+    <small>Another thing by Rogues</small>
+  </footer>
+</div>

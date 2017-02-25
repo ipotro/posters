@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+@font-face {
+  // sass-lint:disable no-url-domains, no-url-protocols, no-duplicate-properties, indentation
+  font-family: 'vcr';
+  font-style: normal;
+  font-weight: normal;
+  src: url('http://posters.wtf/fonts/vrc/vcr.eot');
+  src: url('http://posters.wtf/fonts/vrc/vcr.eot?#iefix') format('embedded-opentype'),
+       url('http://posters.wtf/fonts/vrc/vcr.woff2') format('woff2'),
+       url('http://posters.wtf/fonts/vrc/vcr.woff') format('woff'),
+       url('http://posters.wtf/fonts/vrc/vcr.ttf') format('truetype'),
+       url('http://posters.wtf/fonts/vrc/vcr.svg#vcr_osd_monoregular') format('svg');
+  // sass-lint:enable no-url-domains, no-url-protocols, no-duplicate-properties, indentation
+}
