@@ -2,6 +2,7 @@
 layout: post
 title:  "Star Wars: Episode IV A New Hope"
 date:   2017-02-19 15:10:34 -0600
+permalink: starwars-iv
 ---
 
 <section class='movie'>

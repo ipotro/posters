@@ -6,9 +6,19 @@
 
 @import 'fonts/vcr';
 
+@import 'theme/palette';
+
 @import 'functions/color.white';
+@import 'functions/color.black';
+@import 'functions/palette';
 
 @import 'theme/setup';
 
 @import 'components/home';
 @import 'components/articles';
+@import 'components/credits';
+
+@import 'components/layout/movie';
+@import 'components/layout/post';
+
+@import 'components/posters/starwars-iv';
